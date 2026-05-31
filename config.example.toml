@@ -1,0 +1,25 @@
+[discord]
+token = "your-discord-token-here"
+i_understand_selfbot_risk = false
+root_operator_ids = []
+
+[api]
+host = "127.0.0.1"
+port = 8765
+auth_token = "change-this-secret-token"
+
+[providers.default]
+kind = "ollama"
+base_url = "https://ollama.com"
+api_key = "your-api-key-here"
+model = "llama3.2"
+timeout_s = 120.0
+
+[runtime]
+task_tick_seconds = 30
+quiet_consolidation_enabled = true
+quiet_consolidation_minutes = 10
+
+[logging]
+console_level = "info"
+provider_http_debug = false
