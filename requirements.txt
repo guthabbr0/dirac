@@ -1,4 +1,4 @@
-python>=3.14
+# Runtime requirement: Python >=3.14 (enforced in pyproject.toml)
 discord.py-self>=2.0
 fastapi>=0.110
 uvicorn[standard]>=0.27
